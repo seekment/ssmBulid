@@ -1,0 +1,14 @@
+-- auto-generated definition
+create table books
+(
+    bookID     int auto_increment
+        primary key,
+    bookName   varchar(100)  null,
+    bookCounts int default 0 null,
+    detail     varchar(300)  null
+);
+
+insert into books(bookID,bookName,bookCounts,detail)
+values (1,'武侠',2,'hhh');
+insert into books(bookID,bookName,bookCounts,detail)
+values (2,'世界',2,'sss');
